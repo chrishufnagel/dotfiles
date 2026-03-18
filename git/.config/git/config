@@ -1,0 +1,17 @@
+# https://git-scm.com/docs/git-config
+
+[init]
+  defaultBranch = main
+
+[alias]
+  st = status
+  co = checkout
+  ci = commit
+  br = branch
+
+[core]
+  editor = nvim
+
+# Sensitive and machine specific config.
+[include]
+  path = ~/.config/git/local
