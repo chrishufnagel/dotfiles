@@ -23,7 +23,7 @@
   },
 
   "network": {
-    "format-wifi": "",
+    "format-wifi": " ",
     "format-disconnected": "󰖪",
     "interval": 30
   }
