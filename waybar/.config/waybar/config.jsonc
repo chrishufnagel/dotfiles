@@ -1,0 +1,31 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 32,
+  "spacing": 8,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["battery", "network"],
+
+  "hyprland/workspaces": {
+    "format": "{id}"
+  },
+
+  "clock": {
+    "format": "{:%a %b %d %I:%M %p}",
+  },
+
+  "battery": {
+    "format": " {capacity}%",
+    "format-charging": "󰂅 {capacity}%",
+    "interval": 30
+  },
+
+  "network": {
+    "format-wifi": "",
+    "format-disconnected": "󰖪",
+    "interval": 30
+  }
+}
+

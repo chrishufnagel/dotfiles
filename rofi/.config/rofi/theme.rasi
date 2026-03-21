@@ -1,0 +1,63 @@
+* {
+    bg: #1e1e2e;
+    fg: #cdd6f4;
+    selected: #313244;
+    border: #89b4fa;
+
+    background-color: transparent;
+    text-color: @fg;
+}
+
+window {
+    background-color: @bg;
+    border: 2px;
+    border-color: @border;
+    border-radius: 10px;
+    width: 500px;
+    padding: 12px;
+}
+
+inputbar {
+    background-color: @bg;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    children: [prompt, entry];
+}
+
+prompt {
+    background-color: transparent;
+    padding: 0 8px 0 0;
+    text-color: @border;
+}
+
+entry {
+    background-color: transparent;
+    placeholder: "Search...";
+    placeholder-color: #585b70;
+}
+
+listview {
+    background-color: transparent;
+    lines: 8;
+    spacing: 4px;
+}
+
+element {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+element selected {
+    background-color: @selected;
+}
+
+element-icon {
+    size: 24px;
+    margin-right: 8px;
+}
+
+element-text {
+    background-color: transparent;
+}

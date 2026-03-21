@@ -1,0 +1,13 @@
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: rgba(0,0,0,0.8);
+  color: #ffffff;
+}
+
+.modules-left, .modules-center, .modules-right {
+  padding: 0 12px;
+}
